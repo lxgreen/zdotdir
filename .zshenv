@@ -10,7 +10,7 @@ export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
 
 export ZK_NOTEBOOK_DIR="~/Sync/Notes"
-export TERM="xterm-256color"
+export TERM="alacritty"
 export BAT_THEME="gruvbox-dark"
 export PATH="$HOME/.cargo/bin:/usr/bin/python:/usr/local/opt/ruby/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
