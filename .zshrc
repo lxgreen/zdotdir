@@ -28,14 +28,6 @@ setopt PUSHD_IGNORE_DUPS    # Do not store duplicates in the stack.
 setopt PUSHD_SILENT         # Do not print the directory stack after pushd or popd.
 
 # vi mode
-bindkey -v
-export KEYTIMEOUT=1
-
-# cursor shape in insert/normal mode
-source $ZDOTDIR/cursor.zsh
-
-
-
-
+source $ZDOTDIR/vi-mode.zsh
 
 alacritty-themes Gruvbox-Dark
