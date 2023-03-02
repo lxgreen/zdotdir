@@ -19,6 +19,9 @@ autoload -U compinit; compinit  # Enable completion
 _comp_options+=(globdots)       # With hidden files
 # TODO: add https://github.com/Phantas0s/.dotfiles/blob/master/zsh/completion.zsh
 
+# zoxide
+eval "$(zoxide init zsh)"
+
 # prompt
 eval "$(starship init zsh)"
 
